@@ -16,7 +16,9 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     libgoogle-glog-dev \
     locate \
     fd-find \ 
-    git
+    git \
+    clang-tidy \
+    clang-format
 
 WORKDIR /chess
 
