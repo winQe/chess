@@ -1,0 +1,6 @@
+---
+BasedOnStyle: Google
+---
+Language:                               Cpp
+Cpp17BracedListStyle:                   true
+Standard:                               Cpp17
