@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  chess:
+    image: chess:latest
+    volumes:
+      - .:/chess
+    container_name: chess
+    tty: true # To keep the container running
